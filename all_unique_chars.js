@@ -4,7 +4,13 @@
 * @param {string} The string to check;
 * @return {boolean} Returns a true/false indicating if the string contains all unique characters 
 */
-function checkForUnique(stringValue) {
+var checkForUnique = function(stringValue) {
+	
+	if(typeof stringValue !== 'string') {
+		console.log('the value entered is not a string');
+		return;
+	}
+	
 	var charMap = {};
 	
 	for(var i = 0; i < stringValue.length; i++) {
@@ -20,15 +26,4 @@ function checkForUnique(stringValue) {
 	return true;
 }
 
-
-
-// some simple tests for the above function
-console.log('true', checkForUnique('abcdefg'));
-console.log('true', checkForUnique('AI649^)'))
-console.log('true', checkForUnique('Testing'))
-console.log('true', checkForUnique('1234567890LiIl'))
-console.log('false', checkForUnique('testing'))
-console.log('false', checkForUnique('output'))
-console.log('false', checkForUnique('this is a really long string that is definitely not all unique'))
-console.log('false', checkForUnique('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'))
-console.log('false', checkForUnique('                                      '))
+module.exports = checkForUnique;

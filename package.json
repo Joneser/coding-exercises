@@ -1,0 +1,24 @@
+{
+  "name": "joneser-coding-exercises",
+  "version": "0.1.0",
+  "description": "Project with collection of coding exercise solutions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joneser/coding-exercises.git"
+  },
+  "devDependencies": {
+    "jasmine-node": "~2.0.0"
+  },
+  "maintainers": [
+    {
+      "name": "David Jones"
+    }
+  ],
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "scripts": {
+    "pretest": "npm install",
+    "test": "jasmine-node specs"
+  }
+}
