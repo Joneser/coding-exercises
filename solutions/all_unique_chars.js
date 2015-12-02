@@ -1,3 +1,4 @@
+'use strict';
 
 /*
 * @description This functions takes a string and determines if it contains all uniqeue characters
