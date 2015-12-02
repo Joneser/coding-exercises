@@ -1,6 +1,6 @@
 'use strict';
 
-var checkForUnique = require('../all_unique_chars.js');
+var checkForUnique = require('../solutions/all_unique_chars.js');
 
 describe('When using checkForUnique() on a string', function() {
 
