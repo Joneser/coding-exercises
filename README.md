@@ -8,3 +8,4 @@ Solved solutions:
 - [x] Check if two strings are anagrams of each other
 - [x] encode a string by replacing spaces with %20
 - [x] Check if a string contains all unique characters
+- [x] Fizz Buzz
