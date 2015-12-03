@@ -2,9 +2,9 @@
 
 var checkForUnique = require('../solutions/all_unique_chars.js');
 
-describe('When using checkForUnique() on a string', function() {
+describe('When using checkForUnique() on a string', function () {
 
-	it('Check positive results', function() {
+	it('Check positive results', function () {
 		expect(checkForUnique('abcdefg')).toEqual(true);
 		expect(checkForUnique('AI649^)')).toEqual(true);
 		expect(checkForUnique('Testing')).toEqual(true);

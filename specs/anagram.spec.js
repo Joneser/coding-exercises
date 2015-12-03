@@ -2,9 +2,9 @@
 
 var isAnagram = require('../solutions/isAnagram.js');
 
-describe('When using isAnagram()', function() {
+describe('When using isAnagram()', function () {
 
-	it('Check for successful anagram comparisons', function() {
+	it('Check for successful anagram comparisons', function () {
 		expect(isAnagram('1234567890', '0987654321')).toEqual(true);
 		expect(isAnagram('abcdefg', 'befcgda')).toEqual(true);
 		expect(isAnagram('THIS IS a string with SPACES, capitals!?!?!? and special', ' Ih SPAS a striTHISng witCES, ca?!? and specpitals!?!ial')).toEqual(true);
