@@ -3,7 +3,7 @@
 /**
  * @desc Standard fizz buzz function
  * @param {number} limit The number fizzbuzz needs to be played until
- * @returns {Array} outputArray The array of outputs decided by fizzbuzz
+ * @returns {Array} outputArray The array of outputs decided by fizzbuzz (using an array to store values in order to make testing easier)
  */
 var fizzBuzz = function (limit) {
 
