@@ -7,4 +7,4 @@ node_js:
   - 0.12.7
   
 script:
-  - jasmine-node specs
+  - eslint solutions && eslint specs && jasmine-node specs
