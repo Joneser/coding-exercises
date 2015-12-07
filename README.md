@@ -9,3 +9,6 @@ Solved solutions:
 - [x] encode a string by replacing spaces with %20
 - [x] Check if a string contains all unique characters
 - [x] Fizz Buzz
+- [x] Get prime numbers up to n
+- [x] Change all words of a certain length within a sentence to uppercase
+- [x] mul(2)(3)(4) handling
