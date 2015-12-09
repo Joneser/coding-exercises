@@ -12,3 +12,5 @@ Solved solutions:
 - [x] Get prime numbers up to n
 - [x] Change all words of a certain length within a sentence to uppercase
 - [x] mul(2)(3)(4) handling
+- [x] fibonnaci sequence generation
+- [x] bubblesort implementation
