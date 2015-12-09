@@ -9,21 +9,21 @@
 var bubbleSort = function (inputArray) {
 
 	var sorted = false;
-	
+
 	// check that all elements in the array is a number, if they aren't return an error
-	if (!inputArray.every(function(element, index, array){return typeof element === 'number';})) {
+	if (!inputArray.every(function (element) {return typeof element === 'number';})) {
 		return 'all elements in the array must be a number';
 	}
 
 	do {
 		sorted = false;
-   		for(var i = 0; i < inputArray.length - 1; i++) {
-			
-			if(inputArray[i] > inputArray[i+1]) {
+		for (var i = 0; i < inputArray.length - 1; i++) {
+
+			if (inputArray[i] > inputArray[i + 1]) {
 				var temp = inputArray[i];
-				inputArray[i] = inputArray[i+1];
-				inputArray[i+1] = temp;
-				sorted = true;	
+				inputArray[i] = inputArray[i + 1];
+				inputArray[i + 1] = temp;
+				sorted = true;
 			}
 		}
 
